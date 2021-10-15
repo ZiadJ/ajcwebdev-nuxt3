@@ -1,4 +1,4 @@
-# Example Project from [A First Look at Nuxt 3]()
+# Example Project from [A First Look at Nuxt 3](https://dev.to/ajcwebdev/a-first-look-at-nuxt-3-1769)
 
 Nuxt's goal is to make web development intuitive and performant with a great developer experience in mind. The original version was created by [Sébastien Chopin in October 2016](https://github.com/nuxt/nuxt.js/commit/0072ed31da6ce39d21046e05898f956cff190390) to emulate the features of Next.js but with Vue instead of React. Version 3 has been [over a year in the making](https://nuxtjs.org/announcements/nuxt3-beta/) and is composed of the following [core packages](https://github.com/nuxt/framework/tree/main/packages):
 
