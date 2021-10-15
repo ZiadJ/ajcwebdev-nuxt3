@@ -1,1 +1,0 @@
-module.exports = require('./src/.output/server/chunks/index.js')
