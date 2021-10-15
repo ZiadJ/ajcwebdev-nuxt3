@@ -1,4 +1,4 @@
-# Example project from [A First Look at Nuxt 3]()
+# Example Project from [A First Look at Nuxt 3]()
 
 Nuxt's goal is to make web development intuitive and performant with a great developer experience in mind. The original version was created by [Sébastien Chopin in October 2016](https://github.com/nuxt/nuxt.js/commit/0072ed31da6ce39d21046e05898f956cff190390) to emulate the features of Next.js but with Vue instead of React. Version 3 has been [over a year in the making](https://nuxtjs.org/announcements/nuxt3-beta/) and is composed of the following [core packages](https://github.com/nuxt/framework/tree/main/packages):
 
@@ -11,11 +11,13 @@ Nuxt's goal is to make web development intuitive and performant with a great dev
 
 Together these packages provide a selection of libraries for managing many common concerns for developers building on the web today such as:
 
-- A JavaScript framework to bring reactivity and web components - [Vue.js](https://v3.vuejs.org).
-- A bundler to support hot module replacement in development and bundling for production - [Webpack 5](https://webpack.js.org/) and [Vite](https://vitejs.dev/) both supported.
-- A transpiler for writing the latest JavaScript syntax while supporting legacy browsers - [esbuild](https://esbuild.github.io).
-- A server that can serve your application in development and support [server-side rendering](https://v3.vuejs.org/guide/ssr/introduction.html#what-is-server-side-rendering-ssr) or API routes - [h3](https://github.com/unjs/h3).
-- A routing library to handle client-side navigation - [vue-router](https://next.router.vuejs.org).
+|Tool|Nuxt Opinion|
+|----|------------|
+|JavaScript framework to bring reactivity and web components|[Vue.js](https://v3.vuejs.org)|
+|Bundler to support hot module replacement in development and bundling for production|[Webpack 5](https://webpack.js.org/) and [Vite](https://vitejs.dev/) both supported|
+|Transpiler for writing the latest JavaScript syntax while supporting legacy browsers|[esbuild](https://esbuild.github.io)|
+|Server that can serve your application in development and support [server-side rendering](https://v3.vuejs.org/guide/ssr/introduction.html#what-is-server-side-rendering-ssr) or API routes|[h3](https://github.com/unjs/h3)|
+|Routing library to handle client-side navigation|[vue-router](https://next.router.vuejs.org)|
 
 In addition to curating and integrating these tools, Nuxt also provides directory structure conventions for managing pages and components.
 
@@ -138,10 +140,6 @@ Open [localhost:3000/api/hello](http://localhost:3000/api/hello).
 ## Deploy to Netlify
 
 What's the point of a framework if you can't deploy it on a Jamstack platform?
-
-```bash
-touch netlify.toml
-```
 
 ```toml
 [build]
