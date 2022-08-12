@@ -10,7 +10,7 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.3",
+    "nuxt": "npm:nuxt3@latest",
     "vercel": "^25.1.0"
   }
 }
