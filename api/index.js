@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-const hello = require('./hello')
+const hello = require('./users')
 app.use(hello)
 
 if (require.main === module) {
