@@ -11,7 +11,7 @@
     "prisma:generate": "prisma generate"
   },
   "dependencies": {
-    "@prisma/client": "4.3.0",
+    "@prisma/client": "4.3.0"
   }
   "devDependencies": {
     "nuxt": "npm:nuxt3@latest",
