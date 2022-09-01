@@ -1,14 +1,16 @@
+// index.js
 import express from 'express'
+import { PrismaClient } from '@prisma/client'
+
+const prisma = new PrismaClient()
 const app = express()
 
-const hello = require('./users')
-app.use(hello)
+app.use(express.json())
 
-if (require.main === module) {
-  const port = 3001
-  app.listen(port, () => {
-    console.log(`API server listening on port ${port}`)
-  })
+/** 
+* logic for our api will go here
+*/
+export default {
+  path: '/api',
+  handler: app
 }
-
-module.exports = app
