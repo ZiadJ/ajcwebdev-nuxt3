@@ -1,5 +1,5 @@
 <template>
   <div>
-    <h2>ajcwebdev-nuxt3</h2>
+    <h2>test</h2>
   </div>
 </template>
