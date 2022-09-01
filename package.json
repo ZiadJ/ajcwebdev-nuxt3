@@ -7,10 +7,15 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "prisma:generate": "prisma generate"
   },
+  "dependencies": {
+    "@prisma/client": "4.3.0",
+  }
   "devDependencies": {
     "nuxt": "npm:nuxt3@latest",
-    "vercel": "^25.1.0"
+    "vercel": "^25.1.0",
+    "prisma": "4.3.0"
   }
 }
