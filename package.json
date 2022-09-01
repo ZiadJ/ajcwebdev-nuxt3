@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@prisma/client": "4.3.0"
-  }
+  },
   "devDependencies": {
     "nuxt": "npm:nuxt3@latest",
     "vercel": "^25.1.0",
