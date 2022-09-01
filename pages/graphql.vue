@@ -1,4 +1,4 @@
-<template>
+<template>test
   <ul>
     <li
       v-for="character of characters.data.characters.results"
