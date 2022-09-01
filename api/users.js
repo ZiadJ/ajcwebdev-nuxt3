@@ -7,7 +7,7 @@ export default async (req, res) => {
       const users = await prisma.user.findMany({
         include: { profiles: true },
       })
-      res.status(200).json({ "test": 'aaa' })
+      res.status(200).json(users); // { "test": 'aaa' })
     } catch (error) {
       console.error(error)
       res.status(500).json(error)
